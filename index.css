@@ -1,0 +1,81 @@
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: hsl(222, 26%, 31%);
+  color: white;
+  margin: 4em auto;
+  text-align: center;
+}
+
+.container {
+  max-width: 540px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5em;
+}
+
+.header .title {
+  font-size: 2rem;
+  color: white;
+}
+
+.container-display {
+  background: hsl(224, 36%, 15%);
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.display {
+  font-size: 2.5rem;
+  text-align: right;
+  color: white;
+}
+
+.keyboard {
+  background: hsl(223, 31%, 20%);
+  padding: 1.5em;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.btn {
+  background: hsl(30, 25%, 89%);
+  color: hsl(221, 14%, 31%);
+  font-size: 1.5rem;
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px hsl(28, 16%, 65%);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: white;
+}
+
+.btn-function-key {
+  background: hsl(225, 21%, 49%);
+  color: white;
+  box-shadow: 0 4px hsl(224, 28%, 35%);
+}
+
+.btn-function-key:hover {
+  background: #a2b2e1;
+}
+
+.btn-equal-key {
+  background: hsl(6, 63%, 50%);
+  color: white;
+  grid-column: span 2;
+}
+
+.btn-equal-key:hover {
+  background: #f96b5b;
+}
+
+.btn-reset-key {
+  grid-column: span 2;
+}
